@@ -18,3 +18,17 @@ heading3.textContent = "I'm a blue h3!";
 heading3.style.color = "blue";
 
 container.appendChild(heading3);
+
+const borderDiv = document.createElement("div");
+borderDiv.style.border = "1px solid black";
+
+const heading1 = document.createElement("h1");
+heading1.textContent = "I'm in a div";
+
+borderDiv.appendChild(heading1);
+
+const paragraph2 = document.createElement("p");
+paragraph2.textContent = "ME TOO!";
+borderDiv.appendChild(paragraph2);
+
+container.appendChild(borderDiv);
